@@ -9,20 +9,40 @@
 
 <body>
     <header>
-        <h1>TechCon 2024 Conference</h1>
+        <h1>Register for TechCon 2024</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Schedule</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>            
-                <li><a href="register.html">Register</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <main>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name"/>
+            <br>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email"/>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <label for="password_confirmation">Password Confirmation</label>
+            <input type="password" id="password_confirmation" name="password_confirmation">
+            <br>
+            <label for="terms">Do you agree to the terms and conditions</label>
+            <input type="checkbox" id="terms" name="terms"/>
+            <br>
+            <button type="button">Register Now</button>
+        </form>
+    </main>
 
     <footer>
-        <p>&copy;TechCon 2025</p>
+        <p>copyright &copy; TechCon 2025</p>
     </footer>
 </body>
 
